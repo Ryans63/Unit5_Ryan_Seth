@@ -1,3 +1,6 @@
 public interface Priority{
-    public void setPriority()
+    public void setPriority(int priorityLevel);
+
+    int getPriority();
+
 }
